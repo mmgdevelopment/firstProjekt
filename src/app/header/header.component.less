@@ -1,0 +1,10 @@
+.boxShadow(@x, @y, @blur, @spread, @color){
+    box-shadow: @x @y @blur @spread @color;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .boxShadow(0, 0, 10px, 5px, rgba(0,0,0,0.35));
+}
